@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="author" content="faishol wijanarko">
+   <title>Document</title>
+   <style>
+      section {
+         width: 600px;
+         border: 5px solid #000000;
+         height: 600px;
+         margin: 10px auto;
+         margin-top: 20px;
+         display: grid;
+
+         /* Mengatur 4 kolom dan 2 baris */
+         grid-template-rows: repeat(4, 1fr);
+         grid-template-columns: repeat(2, 1fr);
+
+         /* Mengatur area grid sesuai dengan ID */
+         grid-template-areas:
+         "satu dua"
+         "tiga empat"
+         "lima empat"
+         "enam enam";
+         
+      }
+
+      div {
+         background-color: #dcca06;
+         border: 2px solid rgb(41, 147, 11);
+         margin-top: 20px;
+      }
+
+      /* Mengatur area grid sesuai dengan ID */
+      #satu {
+         grid-area: satu;
+      }
+      #dua {
+         grid-area: dua;
+      }
+      #tiga {
+         grid-area: tiga;
+      }
+      #empat {
+         grid-area: empat;
+      }
+      #lima {
+         grid-area: lima;
+      }
+      #enam {
+         grid-area: enam;
+      }
+   </style>
+</head>
+
+<body>
+   <section>
+      <div id="satu">satu</div>
+      <div id="dua">dua</div>
+      <div id="tiga">tiga</div>
+      <div id="empat">empat</div>
+      <div id="lima">lima</div>
+      <div id="enam">enam</div>
+   </section>
+</body>
+
+</html>

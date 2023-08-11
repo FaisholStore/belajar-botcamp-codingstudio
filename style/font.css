@@ -1,0 +1,55 @@
+*{
+   font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+h1{
+   font-size:large;
+   font-weight: 700;
+   text-align: center;
+   padding: 20px;
+
+}
+
+nav{
+   text-decoration: none;
+   text-align: center;
+   margin-top: 20px;
+   
+}
+
+a{
+   text-decoration: none; /* Menghapus garis bawah dari tautan */
+   color: blue; /* Mengubah warna tautan menjadi biru */
+   font-weight: bold; /* Membuat teks tautan menjadi tebal */
+   border-bottom:.5em solid transparent ;/* Menambahkan garis bawah pada */
+   line-height: 3.5; /* Menambahkan jarak antar baris */
+   padding: 20px;
+
+}
+
+.anya {
+
+   background-color:#f8e6ff;
+   width : 200px;
+   height: auto;
+   text-align: center;
+   margin: 30px auto;
+   padding: 20px;
+}
+
+button{
+   margin-right: 50px;
+   background-color: aquamarine;
+   border:2px solid #000000;
+   padding: 5px 10px 2px;
+   cursor: pointer;
+}
+
+.btn{
+   background-color: #e6df06;
+   margin-right: 20px ;
+   padding: 3px 10px 4px;
+   cursor: pointer;
+   border:2px solid #000000;
+   
+}
