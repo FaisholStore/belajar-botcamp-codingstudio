@@ -189,3 +189,47 @@ switch (day) {
   default:
     console.log("Hari lain");
 }
+const aString = '10';
+const aNumber = 10
+ 
+console.log(aString == aNumber) // true, karena nilainya sama-sama 10
+console.log(aString === aNumber) // false, karena walaupun nilainya sama, tetapi tipe datanya berbeda
+ 
+
+// * Menggabungkan IF/Else dengan OR dan AND
+let totalBelanja = 125000;
+let jenisMember = "PERAK";
+ 
+if(totalBelanja > 100000 || jenisMember == "Silver"){
+    console.log("Selamat, Anda mendapat diskon sebesar 10%");
+}
+else{
+    console.log("Maaf, saat ini Anda belum mendapat diskon");
+}
+
+// * Menggabungkan IF/Else dengan OR dan AND
+let HASILbelanja = 125000;
+let jenisdiskon = "PERAK";
+ 
+if(HASILbelanja > 100000 && jenisdiskon == "Silver"){
+    console.log("Selamat, Anda mendapat diskon sebesar 10%");
+}
+else{
+    console.log("Maaf, saat ini Anda belum mendapat diskon");
+}
+// *Logika Perulangan dalam JavaScript
+for(let i=0; i<5; i++){
+  console.log("Hello World");
+}
+
+console.log("Sudah di luar kondisi for");
+
+// *Perulangan dengan while
+let counter = 0;
+ 
+while(counter < 5){
+    console.log("Hello World");
+    counter++;
+}
+ 
+console.log("Sudah di luar kondisi while");
